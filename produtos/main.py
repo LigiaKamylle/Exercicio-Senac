@@ -1,8 +1,8 @@
 class  Produto:
-    def __init__(self, nome, preço, origem) -> None:
+    def __init__(self, nome, preço, país_origem) -> None:
         self.nome = nome
         self.preço = preço
-        self.origem = origem
+        self.país_origem = país_origem
         
 
 quantidade = int(input("Informe a quantidade: "))
