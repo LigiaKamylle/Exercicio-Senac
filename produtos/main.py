@@ -3,7 +3,9 @@ class  Produto:
         self.nome = nome
         self.preço = preço
         self.país_origem = país_origem
-        
+
+    def exibir(self):
+        print(f"Nome: {self.nome} - Preço {self.preço}")        
 
 produto = Produto("pizza", 25, "Itália")
 quantidade = int(input("Informe a quantidade: "))
