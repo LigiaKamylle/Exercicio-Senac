@@ -8,5 +8,6 @@ class  Produto:
         print(f"Nome: {self.nome} - Preço {self.preço}")        
 
 produto = Produto("pizza", 25, "Itália")
+produto.exibir()
 quantidade = int(input("Informe a quantidade: "))
 print(quantidade)
